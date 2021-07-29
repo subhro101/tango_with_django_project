@@ -22,21 +22,21 @@ def populate():
     django_pages = [
         {'title':'Official Django Tutorial',
          'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/',
-         'views': 32},
+         'views': 100},
         {'title':'Django Rocks',
          'url':'http://www.djangorocks.com/',
-         'views': 12},
+         'views': 250},
         {'title':'How to Tango with Django',
          'url':'http://www.tangowithdjango.com/',
-         'views': 1258} ]
+         'views': 500} ]
     
     other_pages = [
         {'title':'Bottle',
          'url':'http://bottlepy.org/docs/dev/',
-         'views': 54},
+         'views': 500},
         {'title':'Flask',
          'url':'http://flask.pocoo.org',
-         'views': 64} ]
+         'views': 600} ]
     
     cats = {'Python': {'pages': python_pages, 'views': 128, 'likes': 64},
             'Django': {'pages': django_pages, 'views': 64, 'likes': 32},
